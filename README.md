@@ -29,7 +29,7 @@ I had success with these Cable Matters cross over adapters:<P>
 - I connected the Ethernet modules's VCC and GND to an external breadboard power supply (max 700 MA), not the pico.
   
 ## Installation 
-- Download the latest Wiznet Firmware [here](https://micropython.org/download/W5500_EVB_PICO/)
+- Download the latest Wiznet Firmware [here](https://micropython.org/download/W5500_EVB_PICO/).
 - Install it by copying the u2f per usuall after holding the BOOTSEL button and powering on the pico via USB.
 - It should be rebooted and then will show the WIZNET version:
  ![image](https://github.com/user-attachments/assets/e4dd657c-fd20-4f5a-af1e-9a52be06f61b)
