@@ -105,10 +105,10 @@ The cable takes a bit of space:
 
 
 ##  Option 2 - Prerequisites
-
+| Hardware | Link | 
 |---|---|
 |Raspberry pi Picos|Amazon/Anywhere|
-|TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino | [AliExpress](https://www.aliexpress.us/item/3256805818734279.html) |
+|TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino |[AliExpress](https://www.aliexpress.us/item/3256805818734279.html) |
 
 ## Installation 
 - Install 'normal' micropython per usual.
