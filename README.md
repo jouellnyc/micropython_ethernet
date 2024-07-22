@@ -23,7 +23,7 @@ In the end, I had success with them:<P>
 
 I had success with these Cable Matters cross over adapters:<P>
 
-<img src="https://github.com/user-attachments/assets/2c0a3fe7-2239-4ae2-892a-c16ace24cfef" c
+<img src="https://github.com/user-attachments/assets/2c0a3fe7-2239-4ae2-892a-c16ace24cfef" width="200" height="150">
 
 ## Power
 - I connected the Ethernet modules's VCC and GND to an external breadboard power supply (max 700 MA), not the pico.
