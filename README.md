@@ -130,7 +130,8 @@ The cable takes a bit of space:
 
 ![image](https://github.com/user-attachments/assets/9eaffa9a-2325-4183-a9ab-4d30737b3edb)
 
-- But I was not able to work out how to get pinged or to ping anything, easilty. Once the Wiznet's arrived and they worked out better on the broadboard, I moved on.
+- I did not to get ping working, mainly once the Wiznet's arrived I noticed they worked out better on the broadboard and I moved on.
+- It seems like it's possible though.
  
 ## References
 
