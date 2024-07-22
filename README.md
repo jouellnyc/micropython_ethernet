@@ -14,9 +14,12 @@
 |Crossover Cable |If not using Crossover Adapter|
 |Crossover Adapter (optional if using Cable)| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
-I had success with these USR-ES1 W5500 Ethernet Modules:<P>
+I did not see anyone online using the "USR-ES1 W5500 Ethernet Modules" nor did anyone advertise them per se. I stumbled upon them on Aliexpress and noticed the markings were the same as the Wiznet Board.
+<P>
+In the end, I had success with them:<P>
 
 <img src="https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a" width="200" height="150">
+
 
 I had success with these Cable Matters cross over adapters:<P>
 
@@ -73,8 +76,7 @@ print(nic.active())
 
 ## Code Examples
 
-One both 
-https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure
+Once both are having static IPs you can connect via HTTP or other means. The [Wiznet docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure) are quite good.
 
 ## Pin Configuration
 
