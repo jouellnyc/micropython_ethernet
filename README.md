@@ -34,6 +34,13 @@ I had success with these Cable Matters cross over adapters:<P>
 - It should be rebooted and then will show the WIZNET version:
  ![image](https://github.com/user-attachments/assets/e4dd657c-fd20-4f5a-af1e-9a52be06f61b)
 
+## Pin Configuration
+
+The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
+
+Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
+![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
+
 
 ## Connecting via DHCP or Static IP
 
@@ -82,14 +89,6 @@ print(nic.active())
 - If connected to a LAN, you could ping each of the picos.
 - I am unaware of a ping utility specifically for the Wiznet Firmware, however. (see References below for Discussions regarding Ethernet communication and the Wiznet)
  
-## Pin Configuration
-
-The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
-
-Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
-![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
-
-
 ## Takeaways/ Learnings
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
 - I tried using a 6 inch Ethernet cable, but that failed
