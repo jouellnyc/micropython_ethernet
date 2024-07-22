@@ -24,21 +24,7 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 
 
 
-
 ## Full Micropython Example
-
-In Thonny or other IDE, run/import `send_and_receive.py` on each esp32
-
-With any luck they will both run like this:
-
-<table>
-  <tr>
-    <th>Thonny</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="pics/thonny_uart.png" width="200" height="200"></td>
-  </tr>
-</table>
 
 ## Takeaways/ Learnings
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
@@ -46,8 +32,8 @@ With any luck they will both run like this:
 - I was able to use a 12 inch Ethernet cable
 
 ## References
-
--
+- |Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
+- | Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet | [Stephanj’s Writings](https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
