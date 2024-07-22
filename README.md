@@ -94,7 +94,7 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 
 The cable takes a bit of space:
 
-<img src="https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636" width="200" height="150">
+<img src="https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636" width="350" height="250">
 
   
 ## References
