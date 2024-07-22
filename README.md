@@ -99,6 +99,7 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 |---|---|
 |Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
 | Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet | [Stephanj’s Writings](https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html)|
+| Wiznet Ethernet Function Discussion| [Github](https://github.com/micropython/micropython/issues/15170)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
