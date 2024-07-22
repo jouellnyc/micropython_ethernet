@@ -45,11 +45,11 @@ If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway
 
 You should set both to static if they are connecting only to each other. 
 
--IMPORTANT: You much use a cross over cable or cross over adapter to connect both together.
+*IMPORTANT:* You much use a cross over cable or cross over adapter to connect both together.
 
 You can try DHCP if you connect one of them up to a LAN w/a DHCP server.
 
--IMPORTANT: You'll likley need at least a 12 inch Ethernet cable.
+*IMPORTANT:* You'll likley need at least a 12 inch Ethernet cable.
 
 
 ## Full Micropython Example
