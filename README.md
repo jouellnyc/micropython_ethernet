@@ -11,7 +11,8 @@
 |---|---|
 |2 x Raspberry pi Picos|Amazon/Anywhere|
 |USR-ES1 W5500 Ethernet Network Module Hardware <br> SPI to LAN/ Ethernet TCP ... W5100"|[AKA "Wiznet 5500](https://www.aliexpress.us/item/3256804674673261.html)|
-|Crossover Cable| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
+|Crossover Cable |If not using Crossover Adapter|
+|Crossover Adapter (optional if using Cable)| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
 I had success with these USR-ES1 W5500 Ethernet Modules:<P>
 
@@ -44,9 +45,11 @@ If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway
 
 You should set both to static if they are connecting only to each other. 
 
-IMPORTANT: You much use a cross over cable or cross over module to connect both togeher.
+IMPORTANT: You much use a cross over cable or cross over adapter to connect both together.
 
 You can try DHCP if you connect one of them up to a LAN w/a DHCP server.
+
+IMPORTANT: You'll likley need at least a 12 inch Ethernet cable.
 
 
 ## Full Micropython Example
