@@ -48,11 +48,10 @@ print(nic.active())
 
 NOTES:
 
-# If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')".
+If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')".
     nic.ifconfig('dhcp')
-# If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
+If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
     #nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
- 
 
 
 ## Takeaways/ Learnings
