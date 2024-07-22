@@ -61,7 +61,7 @@ If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway
 
 You can try DHCP if you connect one of them up to a LAN w/a DHCP server.
 
-*IMPORTANT:* You'll likeley need at least a 12 inch Ethernet cable.
+*IMPORTANT:* You'll likely need at least a 12 inch Ethernet cable.
 
 
 ## Full Micropython Example
