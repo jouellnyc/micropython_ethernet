@@ -23,7 +23,7 @@ In the end, I had success with them:<P>
 
 I had success with these Cable Matters cross over adapters:<P>
 
-<img src="https://github.com/user-attachments/assets/2c0a3fe7-2239-4ae2-892a-c16ace24cfef" width="200" height="150">
+<img src="https://github.com/user-attachments/assets/2c0a3fe7-2239-4ae2-892a-c16ace24cfef" c
 
 
 ## Installation 
@@ -93,7 +93,8 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 - I don't actually suggest to connect 2 MCUs on a breadboard via ethernet, it's just too big and unwieldy, but it was fun:
 
 The cable takes a bit of space:
- ![image](https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636)
+
+<img src="https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636" width="200" height="150">
 
   
 ## References
