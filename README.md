@@ -96,7 +96,10 @@ The cable takes a bit of space:
 
 <img src="https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636" width="350" height="250">
 
-  
+- Don't be afraid to the run jumper cables a bit. This setup is for another project so I had to run the cables long ways:
+
+<img src="https://github.com/user-attachments/assets/35ed0b69-354a-4edc-a289-e3cc02ad2ae6" width="350" height="250">
+   
 ## References
 
 | Topic | Link | 
