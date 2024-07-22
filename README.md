@@ -83,6 +83,11 @@ print(nic.active())
 
 ```
 
+Success looks like this (output from above code):
+
+![image](https://github.com/user-attachments/assets/e80dc039-105c-4e88-a339-210e83933da7)
+
+
 ## Code Examples
 
 - Once both are having static IPs as above you can connect via HTTP or other means. The [Wiznet docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure) are quite good.
