@@ -19,7 +19,7 @@ I had success with these USR-ES1 W5500 Ethernet Modules:<P>
 
 I had success with these Cable Matters cross over adapters:<P>
 
-<img src="https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c" width="200" height="150">
+<img src="https://github.com/user-attachments/assets/2c0a3fe7-2239-4ae2-892a-c16ace24cfef" width="200" height="150">
 
 
 ## Installation 
