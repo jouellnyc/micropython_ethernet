@@ -1,7 +1,7 @@
 # micropython_ethernet
 
 ## BackStory
-- Can I get 2 microcontrollers to use micropython to communicate over Ethernet?
+- Can I get 2 microcontrollers to use micropython to communicate with each other over Ethernet?
 - It turns out the answer is yes.
 - Your mileage may vary depending on what you want to do, I tried 2 different options.
 
