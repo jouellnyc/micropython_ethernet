@@ -118,13 +118,13 @@ The cable takes a bit of space:
 - Upload `enc28j60.py` from https://github.com/przemobe/micropy-ENC28J60/tree/main
  
 ## Pin Configuration
-Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
+- Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
 
 ## Code Examples
-Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
+- Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
 
 ## Takeaways/ Learnings
-- This repo 'just worked' the first time, was LOW hassle to get working.
+- This repo 'just worked' the first time, was LOW hassle to get working and great documenation.
 - That said I could send a 'raw' ethernet packet following the author's instructions:
 
 ![image](https://github.com/user-attachments/assets/93d43ed5-8b57-4b97-8ddd-6ff8a1a0f467)
