@@ -90,9 +90,12 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
 - I tried using a 6 inch Ethernet cable, but that failed
 - I was able to use a 12 inch Ethernet cable
-- I don't actually suggest to connect 2 MCUs on a breadboard via ethernet, it's just too big and unwieldy, but it was fun.
-  
+- I don't actually suggest to connect 2 MCUs on a breadboard via ethernet, it's just too big and unwieldy, but it was fun:
 
+The cable takes a bit of space:
+ ![image](https://github.com/user-attachments/assets/a99fcf79-7716-44c1-b38a-67477481a636)
+
+  
 ## References
 
 | Topic | Link | 
