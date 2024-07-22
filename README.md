@@ -3,9 +3,9 @@
 ## BackStory
 - Can I get 2 microcontrollers to use micropython to communicate over Ethernet?
 - Turns out the answer is yes
-- Your mileage may vary depending on what you want to do
+- Your mileage may vary depending on what you want to do, I tried 2 different options
 
-##  Prerequisites
+##  Option 1 - Prerequisites
 
 | Hardware | Link | 
 |---|---|
@@ -90,7 +90,6 @@ Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
 
 
-
 ## Takeaways/ Learnings
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
 - I tried using a 6 inch Ethernet cable, but that failed
@@ -104,7 +103,36 @@ The cable takes a bit of space:
 - Don't be afraid to the run jumper cables a bit. This setup is for another project so I had to run the cables long ways:
 
 <img src="https://github.com/user-attachments/assets/35ed0b69-354a-4edc-a289-e3cc02ad2ae6" width="350" height="500">
-   
+
+
+##  Option 2 - Prerequisites
+
+|---|---|
+|Raspberry pi Picos|Amazon/Anywhere|
+|TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino | [AliExpress](https://www.aliexpress.us/item/3256805818734279.html)
+
+## Installation 
+- Install 'normal' micropython per usual.
+
+## Code
+- Upload `enc28j60.py` from https://github.com/przemobe/micropy-ENC28J60/tree/main
+ 
+## Pin Configuration
+Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
+
+## Code Examples
+Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
+
+## Takeaways/ Learnings
+- This repo 'just worked' the first time, was LOW hassle to get working.
+- That said I could send a 'raw' ethernet packet following the author's instructions:
+
+![image](https://github.com/user-attachments/assets/93d43ed5-8b57-4b97-8ddd-6ff8a1a0f467)
+
+![image](https://github.com/user-attachments/assets/9eaffa9a-2325-4183-a9ab-4d30737b3edb)
+
+- But I was not able to work out how to get pinged or to ping anything and moved on to the Wiznet/etc after a giving it some time. 
+
 ## References
 
 | Topic | Link | 
