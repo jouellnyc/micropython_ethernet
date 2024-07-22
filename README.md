@@ -76,8 +76,10 @@ print(nic.active())
 
 ## Code Examples
 
-Once both are having static IPs you can connect via HTTP or other means. The [Wiznet docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure) are quite good.
-
+- Once both are having static IPs as above you can connect via HTTP or other means. The [Wiznet docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure) are quite good.
+- If connected to a LAN, you could ping each of the picos.
+- I am unaware of a ping utility specifically for the Wiznet Firmware, however. (see References below for Discussions regarding Ethernet communication and the Wiznet)
+ 
 ## Pin Configuration
 
 The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
