@@ -32,8 +32,9 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 - I was able to use a 12 inch Ethernet cable
 
 ## References
-- |Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
-- | Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet | [Stephanj’s Writings](https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html)|
+|What|Detail|
+|Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
+| Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet | [Stephanj’s Writings](https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html)|
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
