@@ -11,9 +11,14 @@
 |---|---|
 |2 x Raspberry pi Picos|Amazon|
 |USR-ES1 W5500 Ethernet Network Module Hardware SPI to LAN/ Ethernet TCP ... W5100"|[AKA "Wiznet 5500](https://www.aliexpress.us/item/3256804674673261.html):
+|Crossover Cable| [ammz](https://www.amazon.com/gp/product/B01I0E5EXU)
 
-I had success with these:
+I had success with these USR-ES1 W5500 Ethernet Modules:
  ![image](https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a)
+
+I had success with these Cable Matters cross over adapters:
+![image](https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c)
+
 
 ## Installation 
 - Download the latest Wiznet Firmware [here](https://micropython.org/download/W5500_EVB_PICO/)
