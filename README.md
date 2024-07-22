@@ -7,11 +7,12 @@
 
 ##  Prerequisites
 
- - 2 x Raspberry pi Picos
- - "USR-ES1 W5500 Ethernet Network Module Hardware SPI to LAN/ Ethernet TCP / IP 51 / STM32 Microcontroller Program Over W5100" - AKA "Wiznet 5500":
+| Hardware | Link | 
+|---|---|
+|2 x Raspberry pi Picos|Amazon|
+|USR-ES1 W5500 Ethernet Network Module Hardware SPI to LAN/ Ethernet TCP ... W5100"|[AKA "Wiznet 5500](https://www.aliexpress.us/item/3256804674673261.html):
 
- - I had success with [these](https://www.aliexpress.us/item/3256804674673261.html):
-
+I had success with these:
  ![image](https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a)
 
 
@@ -20,7 +21,6 @@
 The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
 
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
-
 
 
 
