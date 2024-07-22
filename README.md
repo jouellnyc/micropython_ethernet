@@ -12,7 +12,7 @@
 |2 x Raspberry pi Picos|Amazon/Anywhere|
 |USR-ES1 W5500 Ethernet Network Module Hardware <br> SPI to LAN/ Ethernet TCP ... W5100"|[AKA "Wiznet 5500"](https://www.aliexpress.us/item/3256804674673261.html)|
 |Crossover Cable (If not using Crossover Adapter)|Almost any will do|
-|Crossover Adapter (optional if using Cable)| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
+|Crossover Adapter (optional if using a Crossover Cable)| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
 I did not see anyone online using the "USR-ES1 W5500 Ethernet Modules" nor did anyone advertise them per se. <P>
 I stumbled upon them on Aliexpress and noticed the markings were the same as the Wiznet Board.<P>
