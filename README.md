@@ -16,6 +16,7 @@ I had success with these:
  ![image](https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a)
 
 ## Installation 
+Download the latest Wiznet Firmware [here](https://micropython.org/download/W5500_EVB_PICO/)
 
 ## Pin Configuration
 
