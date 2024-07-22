@@ -61,7 +61,7 @@ You should set both to static if they are connecting only to each other.
 
 You can try DHCP if you connect one of them up to a LAN w/a DHCP server.
 
-*IMPORTANT:* You'll likley need at least a 12 inch Ethernet cable.
+*IMPORTANT:* You'll likeley need at least a 12 inch Ethernet cable.
 
 
 ## Full Micropython Example
