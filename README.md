@@ -13,11 +13,13 @@
 |USR-ES1 W5500 Ethernet Network Module Hardware <br> SPI to LAN/ Ethernet TCP ... W5100"|[AKA "Wiznet 5500](https://www.aliexpress.us/item/3256804674673261.html)|
 |Crossover Cable| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
-I had success with these USR-ES1 W5500 Ethernet Modules:
+I had success with these USR-ES1 W5500 Ethernet Modules:<P>
+
 <img src="https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a" width="200" height="150">
 
-I had success with these Cable Matters cross over adapters:
-<img src="https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c width="200" height="150">
+I had success with these Cable Matters cross over adapters:<P>
+
+<img src="https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c" width="200" height="150">
 
 
 ## Installation 
