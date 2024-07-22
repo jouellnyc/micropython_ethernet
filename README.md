@@ -2,8 +2,8 @@
 
 ## BackStory
 - Can I get 2 microcontrollers to use micropython to communicate over Ethernet?
-- Turns out the answer is yes
-- Your mileage may vary depending on what you want to do, I tried 2 different options
+- It turns out the answer is yes.
+- Your mileage may vary depending on what you want to do, I tried 2 different options.
 
 ##  Option 1 - Prerequisites
 
