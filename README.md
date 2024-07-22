@@ -48,18 +48,25 @@ print(nic.active())
 
 NOTES:
 
-If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')".
+```
+If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')" syntax:
     nic.ifconfig('dhcp')
+    
 If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
-    #nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
+    nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
+   
+```
 
 
 ## Takeaways/ Learnings
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
 - I tried using a 6 inch Ethernet cable, but that failed
 - I was able to use a 12 inch Ethernet cable
+- I don't actually suggest to connect 2 MCUs on a breadboard via ethernet, it's just too big and unwieldy, but it was fun.
+  
 
 ## References
+
 | Topic | Link | 
 |---|---|
 |Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
