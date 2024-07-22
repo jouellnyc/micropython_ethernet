@@ -137,7 +137,7 @@ Follow https://github.com/przemobe/micropy-ENC28J60/tree/main
 
 | Topic | Link | 
 |---|---|
-|Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
+| Is any type of Ethernet supported on ESP32 platforms now?|[micropython forum](https://github.com/orgs/micropython/discussions/11474)|
 | Using Micropython to connect Wiznet W5500 Pico Pis over Ethernet | [Stephanj’s Writings](https://sjhennion.github.io/jekyll/update/2023/09/22/w5500-intro.html)|
 | Wiznet Ethernet Function Discussion| [Github](https://github.com/micropython/micropython/issues/15170)|
 
