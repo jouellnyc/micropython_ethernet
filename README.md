@@ -15,6 +15,7 @@
 I had success with these:
  ![image](https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a)
 
+## Installation 
 
 ## Pin Configuration
 
@@ -25,6 +26,33 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 
 
 ## Full Micropython Example
+
+
+```
+import time
+import network
+from machine import Pin,SPI
+
+spi=SPI(0,2_000_000, mosi=Pin(19),miso=Pin(16),sck=Pin(18))
+nic = network.WIZNET5K(spi,Pin(17),Pin(20)) #spi,cs,reset pin
+nic.active(True)
+nic.ifconfig(('192.168.0.249', '255.255.255.0', '192.168.0.197', '8.8.8.8'))
+time.sleep(2)
+print(nic.isconnected())
+print(nic.regs())
+print(nic.ifconfig())
+print(nic.active())
+
+```
+
+NOTES:
+
+# If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')".
+    nic.ifconfig('dhcp')
+# If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
+    #nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
+ 
+
 
 ## Takeaways/ Learnings
 - I liked the small form factor better as they fit really nicely on the bread board for testing.
