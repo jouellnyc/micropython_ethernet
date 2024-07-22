@@ -14,8 +14,8 @@
 |Crossover Cable |If not using Crossover Adapter|
 |Crossover Adapter (optional if using Cable)| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
-I did not see anyone online using the "USR-ES1 W5500 Ethernet Modules" nor did anyone advertise them per se. I stumbled upon them on Aliexpress and noticed the markings were the same as the Wiznet Board.
-<P>
+I did not see anyone online using the "USR-ES1 W5500 Ethernet Modules" nor did anyone advertise them per se. <P>
+I stumbled upon them on Aliexpress and noticed the markings were the same as the Wiznet Board.<P>
 In the end, I had success with them:<P>
 
 <img src="https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a" width="200" height="150">
