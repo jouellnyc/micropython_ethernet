@@ -55,7 +55,7 @@ If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway
    
 ```
 
-You should set both to static if they are connecting only to each other. 
+(Obvious Note) You should set both to static IPs  if they are connecting only to each other and not part of a LAN with a proper switch. 
 
 *IMPORTANT:* You must use a cross over cable or cross over adapter to connect both together.
 
