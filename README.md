@@ -86,6 +86,7 @@ print(nic.active())
 
 The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
 
+Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
 
 
