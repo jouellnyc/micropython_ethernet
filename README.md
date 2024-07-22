@@ -23,16 +23,27 @@ I had success with these:
 ![image](https://github.com/user-attachments/assets/8711fd1a-3bd2-4306-9237-ed97f1da5453)
 
 
-## Pin Configuration
+## Connecting via DHCP or Static IP
 
-The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
+NOTES:
 
-![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
+```
+If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')" syntax:
+    nic.ifconfig('dhcp')
+    
+If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
+    nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
+   
+```
 
+You should set both to static if they are connecting only to each other. 
+
+IMPORTANT: You much use a cross over cable or cross over module to connect both togeher.
+
+You can try DHCP if you connect one of them up to a LAN w/a DHCP server.
 
 
 ## Full Micropython Example
-
 
 ```
 import time
@@ -51,16 +62,17 @@ print(nic.active())
 
 ```
 
-NOTES:
+## Code Examples
 
-```
-If you use the Dynamic IP(DHCP), you must use the "nic.ifconfig('dhcp')" syntax:
-    nic.ifconfig('dhcp')
-    
-If you use the Static IP, you must use the  "nic.ifconfig("IP","subnet","Gateway","DNS")".
-    nic.ifconfig(('192.168.100.13','255.255.255.0','192.168.100.1','8.8.8.8'))
-   
-```
+One both 
+https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md#ethernet-example-structure
+
+## Pin Configuration
+
+The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
+
+![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
+
 
 
 ## Takeaways/ Learnings
