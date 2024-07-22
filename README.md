@@ -14,10 +14,10 @@
 |Crossover Cable| [Amazon](https://www.amazon.com/gp/product/B01I0E5EXU)
 
 I had success with these USR-ES1 W5500 Ethernet Modules:
- ![image](https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a)
+<img src="https://github.com/user-attachments/assets/d7ae2a9f-5037-468d-88e9-c5acaacc438a" width="200" height="150">
 
 I had success with these Cable Matters cross over adapters:
-![image](https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c)
+<img src="https://github.com/user-attachments/assets/9366418f-4819-4565-aeb2-226f8f168e3c width="200" height="150">
 
 
 ## Installation 
