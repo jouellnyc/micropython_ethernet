@@ -137,7 +137,7 @@ The cable takes a bit of space:
 
 ![image](https://github.com/user-attachments/assets/9eaffa9a-2325-4183-a9ab-4d30737b3edb)
 
-- I did not to get ping working, mainly once the Wiznet's arrived I noticed they worked out better on the broadboard and I moved on.
+- I did not to get ping working, mainly once the Wiznet's arrived I noticed they worked out better on the breadboard and I moved on.
 - It seems like it's possible though.
  
 ## References
