@@ -120,7 +120,7 @@ The cable takes a bit of space:
 ##  Option 3 - ESP32
 I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from [This Repo](https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)
 
-![image](https://github.com/user-attachments/assets/c3efad79-2401-4962-85b6-6bc1e5a3726e)
+<img src="https://github.com/user-attachments/assets/c3efad79-2401-4962-85b6-6bc1e5a3726e"  width="200" height="150">
 
 I needed to specifically set the SPI parameters, otherwise it was the same:
 
@@ -131,8 +131,7 @@ rst=Pin(5)
 nic = WIZNET5K(spi,cs,rst)
 ```
 
-I got an IP via DHCP, and connected to the text URL, but not "http://google.com". Using `urequests` did not help much. It seems like Ethernet is just a toy for the moment....
-
+I got an IP via DHCP, and connected to the text URL, but not "http://google.com". Using `urequests` did not help much...getting "OS -202 Errors".
 
 ## Installation 
 - Install 'normal' micropython per usual.
