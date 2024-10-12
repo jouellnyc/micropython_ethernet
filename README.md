@@ -118,7 +118,7 @@ The cable takes a bit of space:
 |TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino |[AliExpress](https://www.aliexpress.us/item/3256805818734279.html) |
 
 ##  Option 3 - ESP32
-I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from |[This Repo]|(https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)|
+I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from [This Repo](https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)
 
 ![image](https://github.com/user-attachments/assets/91d334cf-d2ca-4aa2-9d2b-8d00760630be)
 
