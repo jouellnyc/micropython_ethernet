@@ -120,7 +120,7 @@ The cable takes a bit of space:
 ##  Option 3 - ESP32
 I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from [This Repo](https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)
 
-<img src="https://github.com/user-attachments/assets/c3efad79-2401-4962-85b6-6bc1e5a3726e"  width="200" height="150">
+<img src="https://github.com/user-attachments/assets/c3efad79-2401-4962-85b6-6bc1e5a3726e"  width="200" height="300">
 
 I needed to specifically set the SPI parameters, otherwise it was the same:
 
