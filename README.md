@@ -117,6 +117,21 @@ The cable takes a bit of space:
 |Raspberry pi Picos|Amazon/Anywhere|
 |TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino |[AliExpress](https://www.aliexpress.us/item/3256805818734279.html) |
 
+##  Option 3 - ESP32
+I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from |[This Repo]|(https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)|
+
+I needed to specifically set the SPI parameters, otherwise it was the same:
+
+```
+spi=SPI(1,baudrate=51200000, mosi=Pin(3),miso=Pin(4),sck=Pin(2))
+cs = Pin(1,Pin.OUT)
+rst=Pin(5)
+nic = WIZNET5K(spi,cs,rst)
+```
+
+I got an IP via DHCP, and connected to the text URL, but not "http://google.com". Using `urequests` did not help much. It seems like Ethernet is just a toy for the moment....
+
+
 ## Installation 
 - Install 'normal' micropython per usual.
 
