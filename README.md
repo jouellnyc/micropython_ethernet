@@ -43,7 +43,7 @@ Thankfully the board I highlight above is the same pin out as the full Wiznet bo
 Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
 
-It can be helpful to have a table of the top view handy since the text is small and can rub off on the W5500.
+However, since it's not the same board, it can be helpful to have a table of the top view handy since the text is small and can rub off on the W5500.
 (Note the top of the W5500  likely says 'HanRun and has a code etched in like 9611XXX'):
 
 ```
