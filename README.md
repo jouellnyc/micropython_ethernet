@@ -47,6 +47,9 @@ It can be helpful to have a table of the top view handy since the text is small 
 (Note the top of the W5500  likely says 'HanRun and has a code etched in like 9611XXX'):
 
 ```
+TOP View
+Left Side    Right Side
+
  MISO        INT (NiNT)
  RST         CS (Nss)
  NC (pwdN)   SCK
