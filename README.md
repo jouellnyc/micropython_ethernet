@@ -41,6 +41,19 @@ The pins are very clearly documented under the [WizNet Docs](https://github.com/
 Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
 
+It can be helpful to have a table of the top view handy since the text is small and can rub off on the W5500.
+(Note the top of the W5500  likely says 'HanRun and has a code etched in like 9611XXX'):
+
+```
+ MISO        INT (NiNT)
+ RST         CS (Nss)
+ NC (pwdN)   SCK
+ V  (3.3)    MOSI
+ V  (3.3)    G
+ G           G
+ 
+    RJ45 Connector
+```
 
 ## Connecting via DHCP or Static IP
 
