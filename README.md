@@ -1,4 +1,4 @@
-# micropython_ethernet
+f# micropython_ethernet
 
 ## BackStory
 - Can I get 2 microcontrollers to use micropython to communicate with each other over Ethernet?
@@ -37,6 +37,8 @@ I had success with these Cable Matters cross over adapters:<P>
 ## Pin Configuration
 
 The pins are very clearly documented under the [WizNet Docs](https://github.com/Wiznet/RP2040-HAT-MicroPython/blob/main/Ethernet%20Example%20Getting%20Started%20%5BMicropython%5D.md):
+
+Thankfully the board I highlight above is the same pin out as the full Wiznet board.
 
 Souce: https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35
 ![image](https://github.com/user-attachments/assets/c3975716-31a0-4755-ac59-04e6be781a35)
@@ -128,6 +130,22 @@ The cable takes a bit of space:
 |Raspberry pi Picos|Amazon/Anywhere|
 |TZT ENC28J60 SPI interface network module Ethernet <br> module (mini version) for arduino |[AliExpress](https://www.aliexpress.us/item/3256805818734279.html) |
 
+##  Option 3 - ESP32
+I was able to connect an [ESP32 Micro](https://www.waveshare.com/esp32-s3-zero.htm) to the ENC28J60 using code from [This Repo](https://github.com/Ayyoubzadeh/ESP32-Wiznet-W5500-Micropython/tree/master)
+
+<img src="https://github.com/user-attachments/assets/c3efad79-2401-4962-85b6-6bc1e5a3726e"  width="200" height="300">
+
+I needed to specifically set the SPI parameters, otherwise it was the same:
+
+```
+spi=SPI(1,baudrate=51200000, mosi=Pin(3),miso=Pin(4),sck=Pin(2))
+cs = Pin(1,Pin.OUT)
+rst=Pin(5)
+nic = WIZNET5K(spi,cs,rst)
+```
+
+I got an IP via DHCP, and connected to the text URL, but not "http://google.com". Using `urequests` did not help much...getting "OS -202 Errors".
+
 ## Installation 
 - Install 'normal' micropython per usual.
 
@@ -148,7 +166,7 @@ The cable takes a bit of space:
 
 ![image](https://github.com/user-attachments/assets/9eaffa9a-2325-4183-a9ab-4d30737b3edb)
 
-- I did not to get ping working, mainly once the Wiznet's arrived I noticed they worked out better on the broadboard and I moved on.
+- I did not to get ping working, mainly once the Wiznet's arrived I noticed they worked out better on the breadboard and I moved on.
 - It seems like it's possible though.
  
 ## References
