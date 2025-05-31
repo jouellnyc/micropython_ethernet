@@ -1,4 +1,4 @@
-f# micropython_ethernet
+# micropython_ethernet
 
 ## BackStory
 - Can I get 2 microcontrollers to use micropython to communicate with each other over Ethernet?
